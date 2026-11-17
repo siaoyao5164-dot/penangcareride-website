@@ -1,0 +1,17 @@
+
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "penang-careride-website",
+  "main": "@tanstack/react-start/server-entry",
+  "compatibility_date": "2026-11-16",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "5007f0b76990449aa1d4ce0eeb913ec5"
+    }
+  ]
+}
